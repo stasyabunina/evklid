@@ -1,0 +1,132 @@
+@media (any-hover: hover) {
+  .nav {
+    &__link {
+      &:hover::after {
+        transform: scaleX(1);
+      }
+    }
+  }
+
+  .search {
+    &__btn {
+      &:hover {
+        color: var(--orange-color);
+      }
+    }
+
+    &__submit-btn {
+      &:hover {
+        color: var(--orange-color);
+      }
+    }
+
+    &__close-btn {
+      &:hover {
+        color: var(--orange-color);
+      }
+    }
+  }
+
+  .hero {
+    &__btn {
+      &:hover {
+        background-color: var(--light-orange-color);
+      }
+    }
+  }
+
+  .card-first {
+    &__btn {
+      &:hover {
+        border: var(--orange-color) solid 3px;
+        background-color: var(--orange-color);
+      }
+    }
+  }
+
+  .work {
+    &__btn {
+      &:hover {
+        color: var(--orange-color);
+      }
+    }
+  }
+
+  .work-card {
+    &__btn-second {
+      &:hover {
+        border: solid 1px var(--gray-color);
+        background-color: var(--gray-color);
+        color: var(--white-color);
+      }
+    }
+
+    &_btn-first {
+      &:hover {
+        background-color: var(--light-orange-color);
+      }
+    }
+  }
+
+  .faq {
+    &__item {
+      &:hover .faq__question {
+        color: var(--orange-color);
+      }
+    }
+
+    &__btn {
+      &:hover::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        border-top: 1px solid var(--orange-color);
+        border-bottom: 1px solid var(--orange-color);
+        cursor: pointer;
+        margin-top: -1px;
+      }
+
+      &:hover .faq__svg {
+        fill: var(--orange-color);
+      }
+
+      &:hover .faq__svg path {
+        fill: var(--white-color);
+      }
+    }
+  }
+
+  .footer-nav {
+    &__link {
+      &:hover {
+        color: var(--orange-color);
+      }
+    }
+
+  }
+
+  .socials {
+    &__link {
+      &:hover {
+        color: var(--orange-color);
+      }
+    }
+  }
+
+  .form {
+    &__input {
+      &:hover {
+        background-color: var(--gray-color);
+      }
+    }
+
+    &__btn {
+      &:hover {
+        background-color: var(--light-orange-color);
+      }
+    }
+  }
+}
